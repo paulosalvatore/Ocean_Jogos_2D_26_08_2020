@@ -898,6 +898,7 @@ GameObject:
   - component: {fileID: 1435200665}
   - component: {fileID: 1435200664}
   - component: {fileID: 1435200663}
+  - component: {fileID: 1435200668}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -941,7 +942,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1435200665
 Animator:
   serializedVersion: 3
@@ -1026,6 +1027,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1435200668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435200662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde1e108f51b37340ae8b2b3ee110d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1435200664}
+  velocidade: 8
 --- !u!1001 &1505502898
 PrefabInstance:
   m_ObjectHideFlags: 0
