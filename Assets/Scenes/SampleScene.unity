@@ -1041,6 +1041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1435200664}
   velocidade: 8
+  anim: {fileID: 1435200665}
 --- !u!1001 &1505502898
 PrefabInstance:
   m_ObjectHideFlags: 0

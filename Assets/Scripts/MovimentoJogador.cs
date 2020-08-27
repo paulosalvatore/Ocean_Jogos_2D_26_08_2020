@@ -8,6 +8,8 @@ public class MovimentoJogador : MonoBehaviour
 
     public float velocidade = 1;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +38,8 @@ public class MovimentoJogador : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
+        // Animação de movimento
+        anim.SetBool("Andando", Mathf.Abs(rb.velocity.x) > 0);
     }
 }
