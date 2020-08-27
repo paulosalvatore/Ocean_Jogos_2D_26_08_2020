@@ -899,6 +899,7 @@ GameObject:
   - component: {fileID: 1435200664}
   - component: {fileID: 1435200663}
   - component: {fileID: 1435200668}
+  - component: {fileID: 1435200669}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -1042,6 +1043,21 @@ MonoBehaviour:
   rb: {fileID: 1435200664}
   velocidade: 8
   anim: {fileID: 1435200665}
+--- !u!114 &1435200669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435200662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a43988b1a42cf4f8542039cbce7c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1435200664}
+  forcaPulo: 300
+  distancia: 0.75
 --- !u!1001 &1505502898
 PrefabInstance:
   m_ObjectHideFlags: 0
