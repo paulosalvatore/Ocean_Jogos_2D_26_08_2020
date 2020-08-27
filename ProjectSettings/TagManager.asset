@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fundo1
+    uniqueID: 651551495
+    locked: 0
+  - name: Fundo2
+    uniqueID: 3346828357
+    locked: 0
+  - name: Fundo3
+    uniqueID: 242641443
+    locked: 0
+  - name: "Cen\xE1rio"
+    uniqueID: 1616614975
+    locked: 0
+  - name: Objetos_Atras
+    uniqueID: 250905471
+    locked: 0
+  - name: Jogador
+    uniqueID: 1286668041
+    locked: 0
+  - name: Objetos_Frente
+    uniqueID: 2482936641
+    locked: 0
+  - name: UI
+    uniqueID: 3367267857
+    locked: 0
