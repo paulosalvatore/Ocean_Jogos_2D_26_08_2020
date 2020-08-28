@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9212290446321396057}
   - component: {fileID: -6025092802685892301}
   - component: {fileID: -6638548286067753041}
+  - component: {fileID: 6727727166393442372}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Untagged
@@ -210,3 +211,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177ed35c748ce494596149893ba1c28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 1
+  direcao: {x: 1, y: 0}
+  habilitarInversaoSentido: 0
+  tempoInverter: 1
+--- !u!114 &6727727166393442372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9212290446321396058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca5d84f6c5ea7941b339769bc696bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 100
+  direcao: 1

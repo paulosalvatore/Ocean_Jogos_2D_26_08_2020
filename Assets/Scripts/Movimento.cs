@@ -14,6 +14,8 @@ public class Movimento : MonoBehaviour
 
     int sentidoAtual = 1;
 
+    public Space espaco = Space.World;
+
     private void Start()
     {
         if (habilitarInversaoSentido)
@@ -29,6 +31,6 @@ public class Movimento : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(direcao * velocidade * sentidoAtual * Time.deltaTime);
+        transform.Translate(direcao * velocidade * sentidoAtual * Time.deltaTime, espaco);
     }
 }

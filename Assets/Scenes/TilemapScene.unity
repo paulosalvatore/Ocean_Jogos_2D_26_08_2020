@@ -20682,6 +20682,11 @@ PrefabInstance:
       propertyPath: direcao.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6638548286067753041, guid: bf10e791d4b20294fba040ccadeb7eda,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -6025092802685892301, guid: bf10e791d4b20294fba040ccadeb7eda,
         type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
