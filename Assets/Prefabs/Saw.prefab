@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6727727166393442372}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,6 +215,7 @@ MonoBehaviour:
   direcao: {x: 1, y: 0}
   habilitarInversaoSentido: 0
   tempoInverter: 1
+  espaco: 0
 --- !u!114 &6727727166393442372
 MonoBehaviour:
   m_ObjectHideFlags: 0
